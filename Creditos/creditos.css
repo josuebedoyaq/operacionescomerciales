@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+:root {
+
+    /* Colors: */
+    --darkgray: #3D3D3D;
+    --naranja: #FF6B00;
+    --blanco: #FAFAFA;
+    --unnamed-color-9e9e9e: #9E9E9E;
+    --unnamed-color-212121: #212121;
+    
+    /* Font/text values */
+    --unnamed-font-family-josefin-sans: Josefin Sans;
+    --unnamed-font-family-lady-nature: Lady Nature;
+    --unnamed-font-style-normal: normal;
+    --unnamed-font-weight-600: 600px;
+    --unnamed-font-weight-normal: normal;
+    --unnamed-font-weight-bold: bold;
+    --unnamed-font-size-20: 20px;
+    --unnamed-font-size-30: 30px;
+    --unnamed-font-size-81: 81px;
+    --unnamed-character-spacing-0: 0px;
+    --unnamed-line-spacing-24: 24px;
+    --unnamed-line-spacing-37: 37px;
+    --unnamed-line-spacing-97: 97px;
+    }
+    /* Character Styles */
+    .nav {
+    font-family: var(--unnamed-font-family-josefin-sans);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-22);
+    line-height: var(--unnamed-line-spacing-24);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--blanco);
+
+    }
+    .burguer {
+    font-family: var(--unnamed-font-family-josefin-sans);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-bold);
+    font-size: var(--unnamed-font-size-30);
+    line-height: var(--unnamed-line-spacing-37);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-212121);
+    }
+    .buscar {
+    font-family: var(--unnamed-font-family-josefin-sans);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-20);
+    line-height: var(--unnamed-line-spacing-24);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-9e9e9e);
+    }
+    .parrafos {
+    font-family: var(--unnamed-font-family-josefin-sans);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-600);
+    font-size: var(--unnamed-font-size-30);
+    line-height: var(--unnamed-line-spacing-37);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--blanco);
+    }
+    .titulos {
+    font-family: var(--unnamed-font-family-lady-nature);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-81);
+    line-height: var(--unnamed-line-spacing-97);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-212121);
+    margin-top: 317px;
+    padding-left: 212px;
+    width: 285px;
+    height: 97px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-81)/var(--unnamed-line-spacing-97) var(--unnamed-font-family-lady-nature);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal normal 81px/97px Lady Nature;
+    letter-spacing: 0px;
+    opacity: 1;
+    }
+    body{
+        background: url(/OVA/imagenes/Fondo_Galeria\(1\).jpg) no-repeat;
+        background-size: 100% 100%;  
+    
+    }
+    header{
+        width: 100%;
+        z-index: 10;
+        height: 60px;
+        background: var(--naranja) 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        }
+
+    .card-top{
+        transition: 250ms;
+        box-shadow: 5px 5px 10px #00000054;
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.5);
+        overflow: hidden;
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        border-left: 1px solid rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(2px);
+        margin-top: 40px;
+    }
+    .card{
+        transition: 250ms;
+        box-shadow: 5px 5px 10px #00000054;
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.5);
+        overflow: hidden;
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        border-left: 1px solid rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(2px);
+    }
+    .card:hover, .card-top:hover{
+        transform: scale(1.04);
+        cursor: pointer;
+    }
+    
+    .nav:hover{
+        color: black;
+        transition: 200ms;
+    }
+
+    header nav ul{
+        display: flex;
+        list-style: none;
+        justify-content: flex-end;
+        margin-top: 18px;
+    }
+    
+    a{
+        text-decoration: none;
+        cursor: pointer;
+        margin-right: 35px;
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--blanco);
+        text-align: left;
+        letter-spacing: 0px;
+        color: #FAFAFA;
+        opacity: 1;
+    }
+
+    .logo-sena{
+        margin-top: 2px;
+        margin-right: 50px;
+        width: 100%;
+        height: 45px;
+        opacity: 1;
+    }
